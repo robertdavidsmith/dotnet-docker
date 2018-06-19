@@ -26,6 +26,7 @@ public static class Program
           WriteLine("**Environment**");
           WriteLine($"Platform: .NET Core");
           WriteLine($"OS: {RuntimeInformation.OSDescription}");
+          WriteLine($"Time: {Datetime.Now}");        
           WriteLine();
     }
 
